@@ -1,12 +1,74 @@
-# React + Vite
+# Aniyomi Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aniyomi Web App is a React-based web application designed to provide users with a seamless experience for browsing and managing anime and manga content.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse anime and manga collections.
+- Search functionality for quick access to titles.
+- User-friendly interface with responsive design.
+- Bookmark and manage your favorite titles.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**: Frontend framework.
+- **JavaScript/TypeScript**: Core programming languages.
+- **CSS/SCSS**: Styling.
+- **REST APIs**: For fetching anime/manga data.
+
+## Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/asta7z/aniyomi-web-app.git
+   cd aniyomi-web-app
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000`.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes and push to your fork:
+   ```bash
+   git commit -m "Add feature-name"
+   git push origin feature-name
+   ```
+4. Open a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For any inquiries or feedback, please contact [your-email@example.com].
