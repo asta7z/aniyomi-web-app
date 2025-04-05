@@ -1,0 +1,123 @@
+@keyframes pulseShadow {
+    0% {
+        box-shadow: 0 0 200px 150px rgba(81, 203, 255, 0.788);
+    }
+
+    25% {
+        box-shadow: 0 0 200px 100px rgba(81, 203, 255, 0.788);
+    }
+
+    50% {
+        box-shadow: 0 0 200px 50px rgba(81, 203, 255, 0.788);
+    }
+
+    75% {
+        box-shadow: 0 0 200px 100px rgba(81, 203, 255, 0.788);
+    }
+
+    100% {
+        box-shadow: 0 0 200px 150px rgba(81, 203, 255, 0.788);
+    }
+}
+
+.container {
+    padding: 0 3rem;
+}
+
+.container .heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    margin: 0 auto;
+    width: inherit;
+    height: 100vh;
+    align-items: center;
+}
+
+.container .heading .right {
+    position: relative;
+}
+
+.container .heading img {
+    width: 350px;
+    object-fit: contain;
+    overflow: visible;
+    z-index: 3;
+    align-self: center;
+    
+}
+
+.container .heading .glow {
+    height: 0;
+    box-shadow: 0 0 200px 150px rgba(81, 203, 255, 0.788);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    z-index: -1;
+    overflow: visible;
+    width: 1px;
+    height: 1px;
+}
+
+.container .heading .left {
+    align-items: center;
+    align-content: center;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+
+.text-cyan-gradient {
+    background-image: -webkit-linear-gradient(0deg, rgb(162, 227, 255), rgba(0, 179, 255, 0.788));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.container .heading .left p.title {
+    font-size: 2.8rem;
+    width: 85%;
+    margin-bottom: 5px;
+    line-height: 3.5rem;
+}
+
+.container .heading .left p.descr {
+    font-size: 1rem;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.562);
+    font-weight: 500;
+}
+
+.container .heading a.watch-btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: var(--sky);
+    padding: 10px 15px;
+    color: var(--bg-dark);
+    border-radius: 100px;
+    width: fit-content;
+}
+
+.container .heading a.watch-btn:hover {
+    filter: brightness(.8);
+}
+
+.container .heading .left p.descr a {
+    color: inherit;
+    transition: all 0.2s;
+}
+
+.container .heading .left p.descr a:hover {
+    color: var(--sky);
+}
+
+.container .popular {
+    padding: 70px 120px;
+    height: 100vh;
+    text-align: center;
+}
+
+.container .popular div.title-container h1.title {
+    font-size: 2.8rem;
+    
+}

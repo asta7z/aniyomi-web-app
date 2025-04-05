@@ -1,0 +1,16 @@
+nav {
+    align-self: center;
+}
+
+nav a {
+    color: inherit;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-weight: 500;
+    font-family: "Inter";
+}
+
+nav a:hover {
+    color: #7bc5e4;
+}

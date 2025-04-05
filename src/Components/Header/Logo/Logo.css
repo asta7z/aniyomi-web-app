@@ -1,0 +1,15 @@
+a.logo {
+    text-decoration: none;
+    color: rgb(223, 223, 214);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+a.logo img {
+    width: 30px;
+    align-items: center;
+    margin-right: 5px;
+}

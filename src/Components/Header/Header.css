@@ -1,0 +1,38 @@
+header {
+    background-color: transparent;
+    display: flex;
+    padding: 0.8rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+    transition: all 0.2s;
+    border-bottom: 1px solid transparent;
+}
+
+.header-scrolled {
+    border-bottom-color: rgba(255, 255, 255, 0.034);
+    background: var(--bg-dark);
+}
+
+header .logo-search {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+}
+
+header .nav-socials {
+    display: flex;
+    align-items: center;
+}
+
+.sep {
+    width: 1px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.164);
+    margin: 0 5px 0 15px;
+    align-self: center;
+}

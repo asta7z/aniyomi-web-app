@@ -1,0 +1,10 @@
+.socials a {
+    color: rgba(223, 223, 214, 0.801);
+    font-size: 1.2rem;
+    margin-left: 10px;
+    transition: all 0.2s;
+}
+
+.socials a:hover {
+    color: #7bc5e4;
+}
