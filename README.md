@@ -5,9 +5,6 @@ Aniyomi Web App is a React-based web application designed to provide users with 
 ## Features
 
 - Browse anime and manga collections.
-- Search functionality for quick access to titles.
-- User-friendly interface with responsive design.
-- Bookmark and manage your favorite titles.
 
 ## Technologies Used
 
