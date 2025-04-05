@@ -12,7 +12,7 @@ Aniyomi Web App is a React-based web application designed to provide users with 
 ## Technologies Used
 
 - **React.js**: Frontend framework.
-- **JavaScript/TypeScript**: Core programming languages.
+- **JavaScript**: Core programming languages.
 - **CSS**: Styling.
 
 ## Getting Started
