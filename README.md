@@ -49,22 +49,6 @@ Follow these instructions to set up and run the project locally.
 
 4. Open your browser and navigate to `http://localhost:3000`.
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes and push to your fork:
-   ```bash
-   git commit -m "Add feature-name"
-   git push origin feature-name
-   ```
-4. Open a pull request.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
