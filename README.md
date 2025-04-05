@@ -13,7 +13,7 @@ Aniyomi Web App is a React-based web application designed to provide users with 
 
 - **React.js**: Frontend framework.
 - **JavaScript/TypeScript**: Core programming languages.
-- **CSS/SCSS**: Styling.
+- **CSS**: Styling.
 - **REST APIs**: For fetching anime/manga data.
 
 ## Getting Started
